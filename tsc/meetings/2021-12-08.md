@@ -1,0 +1,34 @@
+# Shapeshifter TSC Meeting - 2021-12-08 15:00 CEST
+
+# Attendees
+- Jelle Wijnja
+- Robben Riksen
+- Jasper Aartse Tuijn
+- Edward Ross
+- Aurora Saez Armenteros
+- Heine van Wieren
+- Hugo van der Zwaag
+- Robert Steegh
+- Daniel Wich
+
+# Agenda
+- Opening
+- Backward Compatibility
+- Criteria for sub-metering
+- Update other actions
+  - Unit test to pull request on base64 / encryption
+  - Handle pull request base64 issue
+- Closing
+
+# Actions
+- Set-up documenation how to deal with backward compatibility: Jasper, Daniel, Hugo and Edward
+- Check to code check for the base64: Edward
+
+# Notes
+- Backwards compatibility
+  - DSO and CRO should support multiple verions, AGR supports one
+  - Version numbers will be stated in the endpoints
+  - Endpoint registration will be in the CRO
+  - These above mentioned points and other will be worked out further by Jasper, Daniel, Hugo and Edwar. Jasper will continue to take the initiative. 
+- Criteria for sub-metering
+  - all TSC member agree on the criteria for the functional change for sub-metering
