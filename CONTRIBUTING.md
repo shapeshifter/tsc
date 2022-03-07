@@ -23,7 +23,7 @@ Each contribution must meet the [coding style] and include..
 * A [Developer Certificate of Origin signoff].
 * Submitted to the project as a pull request.
 
-Shapeshifter is licensed under the **[Apache License, Version 2.0 (available here: https://www.apache.org/licenses/LICENSE-2.0)]** (the "Project License") license. Contributions should abide by that standard license.
+Shapeshifter is licensed under the **Apache License, Version 2.0 (available here: https://www.apache.org/licenses/LICENSE-2.0)**. Contributions should abide by that standard license. 
 
 Project committers will review the contribution in a timely manner, and advise of any changes needed to merge the request.
 
