@@ -1,5 +1,3 @@
-_Use this file to detail how to make a contribution to the project. The structure below is generally recommended, but can be changed to meet the needs of the project_
-
 # Contributing to Shapeshifter
 
 Thank you for your interest in contributing to Shapeshifter. This document explains our contribution process and procedures:
@@ -23,7 +21,7 @@ Each contribution must meet the [coding style] and include..
 * A [Developer Certificate of Origin signoff].
 * Submitted to the project as a pull request.
 
-Shapeshifter is licensed under the **Apache License, Version 2.0 (available here: https://www.apache.org/licenses/LICENSE-2.0)**. Contributions should abide by that standard license. 
+Shapeshifter is licensed under the **Apache License, Version 2.0** (available here: https://www.apache.org/licenses/LICENSE-2.0). Contributions should abide by this standard license. 
 
 Project committers will review the contribution in a timely manner, and advise of any changes needed to merge the request.
 
