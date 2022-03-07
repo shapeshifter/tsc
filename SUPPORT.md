@@ -2,8 +2,8 @@
 
 There are a few ways to connect with the Shapeshifter project:
 
-* _provide email list details_
-* _provide Slack details_
+* email: shapeshifter-discussion@lists.lfenergy.org
+* [# shapeshifter channel on LF Energy Slack](https://slack.lfenergy.org)
 * _provide link to submit issue_
 
 ## How to Ask for Help
@@ -18,7 +18,7 @@ Shapeshifter manages bug and enhancement using it's [issue tracker]. The issue t
 ## How to report a security vulnerability
 
 If you think you've found a potential vulnerability in Shapeshifter, please
-email security@PROJECT DOMAIN to responsibly disclose it.
+email security@shapeshifter.energy to responsibly disclose it.
 
 ## Contributing a fix
 
