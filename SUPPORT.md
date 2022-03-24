@@ -4,7 +4,10 @@ There are a few ways to connect with the Shapeshifter project:
 
 * email: shapeshifter-discussion@lists.lfenergy.org
 * [# shapeshifter channel on LF Energy Slack](https://slack.lfenergy.org)
-* _provide link to submit issue_
+* If you encounter a bug, or require new features, please file them as an issue of the correct type under their respective repositories:
+  - https://github.com/shapeshifter/shapeshifter-library/issues
+  - https://github.com/shapeshifter/shapeshifter-library-api/issues
+  - https://github.com/shapeshifter/shapeshifter-specification/issues
 
 ## How to Ask for Help
 
@@ -13,7 +16,7 @@ start by posting a question to the mailing list or Slack channel. This is the pl
 
 ## How to report a bug or request an enhancement
 
-Shapeshifter manages bug and enhancement using it's [issue tracker]. The issue template will guide you on making an effective report.
+Shapeshifter manages bug and enhancements through GitHub's issue system, refer to the links in 'Getting Help' to find the correct one for your case. The issue templates will guide you on making an effective report.
 
 ## How to report a security vulnerability
 
