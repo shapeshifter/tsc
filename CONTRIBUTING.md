@@ -23,7 +23,7 @@ Each contribution must meet the [coding style] and include..
 
 Shapeshifter is licensed under the **Apache License, Version 2.0** (available here: https://www.apache.org/licenses/LICENSE-2.0). Contributions should abide by this standard license. 
 
-Project committers will review the contribution in a timely manner, and advise of any changes needed to merge the request.
+Project committers will review the contribution in a timely manner, and advise of any changes needed to merge the request. The project committers are listed in [COMMITTERS.csv](COMMITTERS.csv). 
 
 
 [governance policies]: GOVERNANCE.md
