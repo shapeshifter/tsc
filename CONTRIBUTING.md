@@ -26,6 +26,9 @@ Shapeshifter is licensed under the **Apache License, Version 2.0** (available he
 Project committers will review the contribution in a timely manner, and advise of any changes needed to merge the request. The project committers are listed in [COMMITTERS.csv](COMMITTERS.csv). 
 
 
+
+
+
 [governance policies]: GOVERNANCE.md
 [Technical Charter]: tsc/CHARTER.md
 [copyright and license headers]: https://github.com/lf-energy/tac/blob/main/process/contribution_guidelines.md#license
