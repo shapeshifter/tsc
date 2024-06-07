@@ -1,0 +1,33 @@
+# Shapeshifter TSC Meeting - 2024-06-07 15:00 CEST
+
+# Attendees
+- Robben Riksen
+- Daniel Wich
+- Hugo van der Zwaag
+- Tom Wetjens
+
+# Agenda & notes
+- Actions from the last TSC
+  - See actions
+- Remarks
+    - Annual TAC review was on 14th of May. We got another year within LFE. Ambition to move to Early adoption stage by next annual review
+    - Battery use cases have been investigated by Enexis and GOPACS. The current Shapeshifter protocol should support these. If changes are necessary they will be addressed separately
+- Issue list and PR’s
+  - Specification
+      - https://github.com/shapeshifter/shapeshifter-specification/issues
+      - https://github.com/shapeshifter/shapeshifter-specification/pulls
+        - Discussed pull request. Many seem to be version or patch updates from dependencies. Agreed to always process patch updates and security updates. For major version dependency updates on the specification repostiory, process them when publishing a new version of the specification 
+  - Java library
+      - https://github.com/shapeshifter/shapeshifter-library-java/issues
+           - discussed issue 71: https://github.com/shapeshifter/shapeshifter-library-java/issues/71
+      - https://github.com/shapeshifter/shapeshifter-library-java/pulls
+  - Python library
+      - https://github.com/shapeshifter/shapeshifter-library-python/issues
+      - https://github.com/shapeshifter/shapeshifter-library-python/pulls
+- Security dashboard: https://security.lfx.linuxfoundation.org/#/a092M00001KWtA7QAL/overview
+- OpenSSF best practices badge levels https://www.bestpractices.dev/en/projects/5724
+
+# Actions
+- Robben: will plan a strategy session for Shapeshifter plans for the future
+- Hugo: Add policy to dependabot to automatically process patch updates and create PR's for security updates. 
+- Robben: Add dependency policy to releases.md in the specification repo: Only process Specification major depencency version upates as check before publishing a new specification version.
