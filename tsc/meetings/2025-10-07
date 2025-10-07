@@ -1,0 +1,89 @@
+## **Open Source Strategy & Philosophy**
+
+### **Why Shapeshifter is Open Source**
+- **Historical preservation**: Ensure work done on UFTP (specification + XSDs + Java implementation) is not lost
+- **Independence**: Not owned by GOPACS or DSOs
+- **Interoperability**: Enable communication between any parties implementing the standard, not just single party solutions
+- **Network effect**: Value increases with broader adoption across different parties
+- **Knowledge sharing**: Share ideas and design for community reuse
+- **Transparency**: Documentation value through visible implementation details
+
+### **Shapeshifter vs OpenADR Positioning**
+- **Original intent**: Shapeshifter designed for market-based approach (flex negotiation with pricing)
+- **Current usage**: Now used directively for CSC contracts (similar to OpenADR)
+- **OpenADR characteristics**: More directive and dynamic usage patterns
+- **Future goal**: Continue pursuing worldwide adoption
+- **Enhanced offerings**: Consider providing demo components beyond just specifications and libraries
+
+**Action Item**: Robben/Daniel to describe differences vs OpenADR
+
+## **Future-Proofing the Protocol**
+
+### **Compatibility Management**
+- **XSD improvements**: Enhance XSD compatibility
+- **Testing**: Add comprehensive test suite for XML messages
+- **Documentation & versioning**: 
+  - Parallel publication of docs and XSDs for different versions
+  - Major version branches with main as development branch
+  - Version branch creation during release stabilization
+  - Clear deprecation and end-of-support communication
+  - Default landing on latest major release
+
+### **Version Adoption Strategy**
+- **DSO-first approach**: DSOs adopt new versions first, AGRs follow within grace period
+- **Burden distribution**: Limits version management complexity to small number of DSOs vs many AGRs
+- **Discovery enhancement**: GOPACS address book should indicate supported versions
+
+**Action Item**: GOPACS to implement version discovery capability
+
+### **Security Considerations**
+
+#### **Key Rotation**
+- Communicate previous and current keys via discovery with validity timestamps
+
+#### **Signing vs OAuth2 Analysis**
+- **Current dual purpose**: Authentication and anti-tampering
+- **Complexity question**: Whether to support both with and without signing
+- **Spec responsibility**: Debate over anti-tampering as spec requirement vs implementor choice
+- **Alternative approach**: Readable XML payload in requests without decryption + optional signature attribute
+
+**Action Item**: Tom to check with NBEA on anti-tampering requirements
+
+## **Technical Evolution**
+
+### **JSON Alternative to XML**
+- **Implementation concerns**: XML intimidates implementors
+- **Experience gap**: Developers more familiar with JSON than XML
+- **Technical issues**: XML parsing more complex, less performant, security vulnerabilities
+- **Current decision**: Insufficient value seen for JSON migration at this time
+
+### **Broker Topology Support**
+- **Formalization need**: Define broker role in specification (currently informal practice)
+- **Behavior specification**: Document broker message delivery behavior
+- **Enhanced capabilities**: Define broker validation and message rejection processes
+
+**Action Item**: Albert to determine appropriate role name for "broker"/"exchange" (e.g., CSMP)
+- Note: Shapeshifter extends beyond congestion management
+- CSMP may include capabilities beyond brokering (e.g., contract synchronization)
+
+## **Stakeholder Engagement**
+
+### **Industry Outreach**
+- **Target audience**: TSOs, DSOs, and AGRs
+- **Engagement strategy**: Present Shapeshifter philosophy, current usage, and future positioning
+
+**Action Item**: Robben to request invitation to monthly NBEA meeting for Shapeshifter presentation
+
+## **Items Not Discussed**
+
+### **Project Maturity**
+- Progression from Silver to LFE Gold status
+
+### **GitHub Organization Management**
+- Maintainer security (phishing protection)
+
+### **Library Maintenance**
+- Long-term commitment to library support
+
+### **Message Expansion**
+- Potential usage of additional message types (Metering, Settlement)
