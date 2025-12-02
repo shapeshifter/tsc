@@ -1,25 +1,34 @@
-# [PROJECT NAME] TSC Meeting - [DATE AND TIME OF MEETING]
+# Shapeshifter TSC Meeting 
 
-# Attendance
+**Date and time**: ...  
+**Location**: online
 
-## Voting Members
+# Attendence
+- ...
 
-- [ ] Voting Member 1
-- [ ] Voting Member 2
+# Agenda & Notes
+## 1. Welcome and introductions
+## 2. Approval of the Agenda
+## 4. Security dashboard
+- https://security.lfx.linuxfoundation.org/#/a092M00001KWtA7QAL/overview
+## 3. Issue List and PR's
+### Specification
+- https://github.com/shapeshifter/shapeshifter-specification/issues
+- https://github.com/shapeshifter/shapeshifter-specification/pulls
+### Java library
+- https://github.com/shapeshifter/shapeshifter-library-java/issues
+- https://github.com/shapeshifter/shapeshifter-library-java/pulls
+### Python library
+- https://github.com/shapeshifter/shapeshifter-library-python/issues
+- https://github.com/shapeshifter/shapeshifter-library-python/pulls
+## 5. OpenSSF best practices badge levels 
+- https://www.bestpractices.dev/en/projects/5724
+## 6. Progress Shapeshifter 4
+- ServiceType
+## 7. Any Other Business
 
-## Other Attendees
 
-- Other Attendee 1
-- Other Attendee 2
-
-# Agenda
-
-- Welcome/Introductions
-- Discuss the role of the TSC
-- Elect TSC Chairperson
-- Review [project intake progress](../README.md#project-intake-checklist)
-- Determine TSC meeting cadence and schedule future meetings
-
-# Action Items
-
-# Notes
+# Action Items:
+| # | description                                                           | who    | due | status                                         |
+|---|-----------------------------------------------------------------------|--------|-----|------------------------------------------------|
+| 1 | item 1                                                                | Person |     | to be done                                     |  
