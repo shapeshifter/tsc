@@ -9,9 +9,9 @@
 # Agenda & Notes
 ## 1. Welcome and introductions
 ## 2. Approval of the Agenda
-## 4. Security dashboard
+## 3. Security dashboard
 - https://security.lfx.linuxfoundation.org/#/a092M00001KWtA7QAL/overview
-## 3. Issue List and PR's
+## 4. Issue List and PR's
 ### Specification
 - https://github.com/shapeshifter/shapeshifter-specification/issues
 - https://github.com/shapeshifter/shapeshifter-specification/pulls
